@@ -1,0 +1,43 @@
+html,
+body {
+    height: 100%;
+}
+
+#mynetwork {
+    width: 45%;
+    height: 100%;
+    background: rgba(243, 2, 2, 0.815);
+    /* border: 1px solid lightgray; */
+}
+
+#container2 {
+    width: 55%;
+    height: 100%;
+    /* border: 1px solid lightgray; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    color: aliceblue;
+    font-style: italic;
+    font-size: large;
+    background: rgba(243, 2, 2, 0.815);
+}
+
+#container{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+}
+
+#generate-problem{
+    margin:auto;
+    display:block;
+}
+
+
+#solve{
+    margin:auto;
+    display:block;
+}
